@@ -29,7 +29,7 @@ Action Recognition Model to detect Suspicious activties through Surveillance vid
   2. Run `predictions()` giving the video to predict as input. We have provided some sample videos in `test/`
 
 ## References :  
-  3DCNN : https://github.com/dipakkr/3d-cnn-action-recognition   
-  Slowfast : https://github.com/facebookresearch/SlowFast
-  Keras - Slowfast : https://github.com/xuzheyuan624/slowfast-keras
-  Keras - i3D - https://github.com/dlpbc/keras-kinetics-i3d
+3DCNN : https://github.com/dipakkr/3d-cnn-action-recognition   
+Slowfast : https://github.com/facebookresearch/SlowFast
+Keras - Slowfast : https://github.com/xuzheyuan624/slowfast-keras
+Keras - i3D - https://github.com/dlpbc/keras-kinetics-i3d
