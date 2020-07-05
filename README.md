@@ -17,7 +17,7 @@ Action Recognition Model to detect Suspicious activties through Surveillance vid
   2. The `utils` folder contains 3 python scripts to run
   3. run `python utilties/resort_dataset.py`
   4. run `python utilties/create_normal_class.py`
-  5. run `python utilties/preprocess.py
+  5. run `python utilties/preprocess.py`
   
 ### Training :
   The `train_set.ipynb` contains all functions needed to train model. Run all cells and adjust parameters in `main()` function for training.  
