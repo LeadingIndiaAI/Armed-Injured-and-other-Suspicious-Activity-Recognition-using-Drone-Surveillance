@@ -6,11 +6,11 @@ Action Recognition Model to detect Suspicious activties through Surveillance vid
  Delete the second DCSASS Dataset folder and Labels folder
 
 ### Requirements :
-  `python3`
-  `opencv3 (with ffmpeg)`
-  `keras`
-  `numpy`
-  `pandas`
+  `python3`  
+  `opencv3 (with ffmpeg)`  
+  `keras`  
+  `numpy`  
+  `pandas`  
 
 ### Dataset Preprocessing :
   1. First extract the dataset folder to the same folder as the repository
@@ -20,9 +20,9 @@ Action Recognition Model to detect Suspicious activties through Surveillance vid
   5. run `python utilties/preprocess.py
   
 ### Training :
-  The `train_set.ipynb` contains all functions needed to train model. Run all cells and adjust parameters in `main()` function for training.
-  For our experiment we used slowfast model with batch size `8`, img_size `224` and frames `25`.
-  Our slowfast model trained on above settings for `100` epochs can be found here https://www.mediafire.com/file/idn98l5m9rfcuvt/slowfast_finalmodel.hd5/file
+  The `train_set.ipynb` contains all functions needed to train model. Run all cells and adjust parameters in `main()` function for training.  
+  For our experiment we used slowfast model with batch size `8`, img_size `224` and frames `25`.  
+  Our slowfast model trained on above settings for `100` epochs can be found here https://www.mediafire.com/file/idn98l5m9rfcuvt/slowfast_finalmodel.hd5/file  
  
 ### Testing :
   1. First load model or use exisiting model after training.
@@ -30,6 +30,6 @@ Action Recognition Model to detect Suspicious activties through Surveillance vid
 
 ## References :  
 3DCNN : https://github.com/dipakkr/3d-cnn-action-recognition   
-Slowfast : https://github.com/facebookresearch/SlowFast
-Keras - Slowfast : https://github.com/xuzheyuan624/slowfast-keras
-Keras - i3D - https://github.com/dlpbc/keras-kinetics-i3d
+Slowfast : https://github.com/facebookresearch/SlowFast  
+Keras - Slowfast : https://github.com/xuzheyuan624/slowfast-keras  
+Keras - i3D - https://github.com/dlpbc/keras-kinetics-i3d  
